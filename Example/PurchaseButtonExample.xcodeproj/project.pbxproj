@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		05959F961E6C9748005B23F0 /* PurchaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 05959F941E6C9748005B23F0 /* PurchaseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05959F9A1E6C9797005B23F0 /* AveBorderedButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 49324B6D1C276E420007A068 /* AveBorderedButton.h */; };
 		05959F9B1E6C9797005B23F0 /* AveBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B6E1C276E420007A068 /* AveBorderedButton.m */; };
-		05959F9C1E6C9797005B23F0 /* AveBorderedView.h in Sources */ = {isa = PBXBuildFile; fileRef = 49324B6F1C276E420007A068 /* AveBorderedView.h */; };
 		05959F9D1E6C9797005B23F0 /* AveBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B701C276E420007A068 /* AveBorderedView.m */; };
-		05959F9E1E6C9797005B23F0 /* AvePurchaseActivityIndicatorView.h in Sources */ = {isa = PBXBuildFile; fileRef = 49324B721C276E420007A068 /* AvePurchaseActivityIndicatorView.h */; };
 		05959F9F1E6C9797005B23F0 /* AvePurchaseActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B731C276E420007A068 /* AvePurchaseActivityIndicatorView.m */; };
-		05959FA01E6C9797005B23F0 /* AvePurchaseButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 49324B741C276E420007A068 /* AvePurchaseButton.h */; };
-		05959FA11E6C9797005B23F0 /* AvePurchaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B751C276E420007A068 /* AvePurchaseButton.m */; };
+		05959FA21E6CA14A005B23F0 /* AvePurchaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B751C276E420007A068 /* AvePurchaseButton.m */; };
+		05959FA31E6CA157005B23F0 /* AvePurchaseActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49324B721C276E420007A068 /* AvePurchaseActivityIndicatorView.h */; };
+		05959FA41E6CA15B005B23F0 /* AveBorderedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 49324B6D1C276E420007A068 /* AveBorderedButton.h */; };
+		05959FA51E6CA15E005B23F0 /* AveBorderedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49324B6F1C276E420007A068 /* AveBorderedView.h */; };
 		49324B351C275EF20007A068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B341C275EF20007A068 /* main.m */; };
 		49324B381C275EF20007A068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49324B371C275EF20007A068 /* AppDelegate.m */; };
 		49324B3E1C275EF20007A068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49324B3C1C275EF20007A068 /* Main.storyboard */; };
@@ -162,6 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05959F961E6C9748005B23F0 /* PurchaseButton.h in Headers */,
+				05959FA31E6CA157005B23F0 /* AvePurchaseActivityIndicatorView.h in Headers */,
+				05959FA41E6CA15B005B23F0 /* AveBorderedButton.h in Headers */,
+				05959FA51E6CA15E005B23F0 /* AveBorderedView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05959F9A1E6C9797005B23F0 /* AveBorderedButton.h in Sources */,
 				05959F9B1E6C9797005B23F0 /* AveBorderedButton.m in Sources */,
-				05959F9C1E6C9797005B23F0 /* AveBorderedView.h in Sources */,
 				05959F9D1E6C9797005B23F0 /* AveBorderedView.m in Sources */,
-				05959F9E1E6C9797005B23F0 /* AvePurchaseActivityIndicatorView.h in Sources */,
 				05959F9F1E6C9797005B23F0 /* AvePurchaseActivityIndicatorView.m in Sources */,
-				05959FA01E6C9797005B23F0 /* AvePurchaseButton.h in Sources */,
-				05959FA11E6C9797005B23F0 /* AvePurchaseButton.m in Sources */,
+				05959FA21E6CA14A005B23F0 /* AvePurchaseButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
