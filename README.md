@@ -47,3 +47,15 @@ Create an instance of AvePurchaseButton. Set the normalTitle, confirmationTitle 
 }
 
 ```
+
+### [Carthage](https://github.com/Carthage/Carthage)
+
+Add this to `Cartfile`
+
+```
+github "AndreasVerhoeven/AvePurchaseButton
+```
+
+```
+$ carthage update
+```
